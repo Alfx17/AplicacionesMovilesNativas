@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tituloTarea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Elementos de Interfaz de Usuario"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#7F9C96"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:id="@+id/scrollPrincipal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/tituloTarea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    <TableLayout
+        android:id="@+id/menuPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tituloTarea"
+        android:padding="12dp">
+
+        <TableRow android:layout_marginBottom="10dp"
+            android:gravity="center">
+            <!-- Botón 1 TextFields-->
+            <Button
+                android:id="@+id/botonAbrirFragment1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#CBDF90"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Más sobre campos de texto"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="12dp"
+                android:clipToOutline="true"
+                android:backgroundTintMode="src_in"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+            <!--Resúmen de los campos de texto-->
+            <TextView
+                android:id="@+id/tituloCamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campos de Texto"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B"/>
+            <!--Resúmen de TextFields-->
+            <TextView
+                android:id="@+id/reseña1"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Los campos de texto se refieren al componente de entrada de texto para la interfaz de usuario, que permite a los usuarios escribir y manipular texto, ofreciendo personalización del teclado y un diseño moderno."
+                android:textStyle="bold | italic"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+            <!--Resúmen de los botones-->
+            <TextView
+                android:id="@+id/tituloBotones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Botones"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#4D7C8A"
+                android:textColor="#000000"/>
+            <!--Resúmen de los Botones-->
+            <TextView
+                android:id="@+id/reseña2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Un botón es un control de interfaz gráfica de usuario (GUI) que permite a los usuarios iniciar acciones en una aplicación, ya sea mediante un texto, un ícono o ambos."
+                android:textStyle="bold | italic"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#4D7C8A"
+                android:textColor="#000000" />
+            </LinearLayout>
+            <!-- Botón 2 Botones-->
+            <Button
+                android:id="@+id/botonAbrirFragment2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#1B4079"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="Más sobre botones"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="12dp"
+                android:clipToOutline="true"
+                android:backgroundTintMode="src_in"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:outlineProvider="background" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_marginBottom="10dp"
+            android:gravity="center">
+            <!-- Botón 3 Elementos de selección-->
+            <Button
+                android:id="@+id/botonAbrirFragment3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#CBDF90"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Más sobre elementos de selección"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="12dp"
+                android:clipToOutline="true"
+                android:backgroundTintMode="src_in"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+            <TextView
+                android:id="@+id/tituloSel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementos de Selección"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B"/>
+            <!--Resúmen de Elementos de selección-->
+            <TextView
+                android:id="@+id/reseña3"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Los elementos de selección en Android Studio son componentes de interfaz de usuario (UI) que permiten al usuario elegir entre un conjunto de opciones disponibles, como botones de selección, casillas de verificación, interruptores o botones segmentados."
+                android:textStyle="bold|italic"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <!--Resúmen de las listas-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+            <!--Resúmen de las listas-->
+            <TextView
+                android:id="@+id/tituloListas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listas"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#4D7C8A"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/reseña4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Una lista es un componente de interfaz de usuario que muestra una colección de elementos relacionados en formato vertical, permitiendo al usuario desplazarse a través de ellos."
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="#4D7C8A"
+                android:textColor="#000000" />
+            </LinearLayout>
+            <!-- Botón 4 Listas-->
+            <Button
+                android:id="@+id/botonAbrirFragment4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#1B4079"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="Más sobre listas"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="12dp"
+                android:clipToOutline="true"
+                android:backgroundTintMode="src_in"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:outlineProvider="background"/>
+
+        </TableRow>
+
+
+        <TableRow android:layout_marginBottom="10dp"
+            android:gravity="center">
+            <!-- Botón 5 Elementos de información-->
+            <Button
+                android:id="@+id/botonAbrirFragment5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#CBDF90"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Más sobre elementos de información"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="12dp"
+                android:clipToOutline="true"
+                android:backgroundTintMode="src_in"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"
+                android:outlineProvider="background" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+            <TextView
+                android:id="@+id/tituloInf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elementos de Información"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B"/>
+            <!--Resúmen de Elementos de información-->
+            <TextView
+                android:id="@+id/reseña5"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Los elementos de información se refieren a los componentes de la interfaz de usuario (como botones, listas o campos de texto) y a los elementos de diseño (como los iconos o las formas definidas en XML) que se utilizan para presentar información al usuario de forma visualmente atractiva y funcional. ."
+                android:textStyle="bold|italic"
+                android:textSize="14sp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:background="#8FAD88"
+                android:textColor="#0B0B0B" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

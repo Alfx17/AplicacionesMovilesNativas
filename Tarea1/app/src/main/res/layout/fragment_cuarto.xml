@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuartoFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="#9D687A">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#853E5B"
+        android:text="Listas"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Características"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Las características principales de las listas en Android incluyen la organización vertical de elementos con desplazamiento (scroll), la capacidad de mostrar datos de forma práctica y la posibilidad de tener múltiples líneas (una, dos o tres) para cada entrada. Se utilizan los componentes LazyColumn y LazyHorizontalStaggeredGrid para cargar elementos de forma eficiente y evitar la sobrecarga de la memoria, además de poder implementar diseño de lista-detalle para una experiencia de usuario mejorada. ."
+        android:textColor="#FFFFFF"
+        android:paddingTop="20dp"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:src="@mipmap/listas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo práctico"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/Lista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al inicio"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
