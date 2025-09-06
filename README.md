@@ -27,7 +27,9 @@
 *"Esta aplicación de Android contiene un Activity en donde se muestra un pequeño resúmen cerca de los elementos de interfaz de usuario. En dicha pantalla se encuentran una serie 
 de botones que al ser seleccionados nos llevarán a una serie de Fragments con más información acerca del tema y con ejemplos prácticos."*
 
-![Prueba](fondo/Prueba.jpeg)
+<p align="center">
+  <img src="fondo/Prueba.jpeg" alt="Prueba" width="300" />
+</p>
 
 ---
 
