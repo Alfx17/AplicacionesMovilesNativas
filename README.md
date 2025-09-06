@@ -25,7 +25,7 @@
 
 ## Descripción del proyecto
 <p align="justify">Esta aplicación de Android contiene un Activity en donde se muestra un pequeño resúmen cerca de los elementos de interfaz de usuario. En dicha pantalla se encuentran una serie de botones que al ser seleccionados nos llevarán a una serie de Fragments con más información acerca del tema y con ejemplos prácticos.</p> 
-<p align="justify">En cada uno de los Fragments se encuentran características de los elementos investigados, seguidos de una imagen que ejemplifica como se verían en una aplicación. Debajo de esta imagen se encuentran ejemplos en los que el usuario puede probar e interactuar directamente algunos elementos. Finalmente, en la parte inferior viene un botón que nos permite regresar al menú principal.</p>
+<p align="justify">En cada uno de los Fragments se encuentran características de los elementos investigados, seguidos de una imagen que ejemplifica como se verían en una aplicación. Debajo de esta imagen se encuentran ejemplos en los que el usuario puede probar e interactuar directamente algunos elementos. Finalmente, en la parte inferior se encuentra un botón que nos permite regresar al menú principal.</p>
 
 <p align="center">
   <img src="fondo/Prueba.jpeg" alt="Prueba" width="300" />
