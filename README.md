@@ -1,0 +1,62 @@
+# Tarea 1.- Elementos de Interfaz de Usuario
+![Portada](fondo/interfaz.jpg)
+
+---
+
+## Insignias
+![Estado](https://img.shields.io/badge/Estado-Terminado-brightgreen)
+![Lenguaje](https://img.shields.io/badge/Kotlin-✓-purple)
+![Plataforma](https://img.shields.io/badge/Plataforma-Android-blue)
+
+---
+
+## Índice
+- [Título e imagen de portada](#tarea-1--elementos-de-interfaz-de-usuario)
+- [Insignias](#insignias)
+- [Índice](#índice)
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Estado de la tarea](#estado-de-la-tarea)
+- [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración-)
+- [Acceso al proyecto](#acceso-al-proyecto)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Desarrollador](#-desarrollador)
+
+---
+
+## Descripción del proyecto
+*"Esta aplicación de Android contiene un Activity en donde se muestra un pequeño resúmen cerca de los elementos de interfaz de usuario. En dicha pantalla se encuentran una serie 
+de botones que al ser seleccionados nos llevarán a una serie de Fragments con más información acerca del tema y con ejemplos prácticos."*
+
+![Prueba](fondo/Prueba.jpeg)
+
+---
+
+## Estado de la tarea
+- ✅ Tarea finalizada
+
+---
+
+## Características de la aplicación y demostración 
+- [x] Pantalla de inicio
+- [x] Uso de Fragments
+- [x] Los botones expanden a los Fragments dentro del Activity
+- [x] Ejemplos prácticos en cada Fragment
+
+---
+
+## Acceso al proyecto
+*"Clonar repositorio: 
+    git clone https://github.com/Alfx17/AplicacionesMovilesNativas.git
+"*
+---
+
+## Tecnologías utilizadas
+- Kotlin
+- Android Studio
+
+---
+
+## Desarrollador
+- Flores Morales Aldahir Andrés
+
+---
