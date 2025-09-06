@@ -22,40 +22,40 @@ class MainActivity : AppCompatActivity() {
         val boton1 = findViewById<Button>(R.id.botonAbrirFragment1)
         boton1.setOnClickListener {
             //Mostrar el fragmento
-            val intent = Intent(this, FragmentsActivity::class.java)
-            intent.putExtra(FragmentsActivity.FragmentTipo, FragmentsActivity.Fragment1)
+            val intent = Intent(this, Fragments::class.java)
+            intent.putExtra(Fragments.FragmentTipo, Fragments.Fragment1)
             startActivity(intent)
         }
 
         // Botón 2 → SegundoFragment
         val boton2 = findViewById<Button>(R.id.botonAbrirFragment2)
         boton2.setOnClickListener {
-            val intent = Intent(this, FragmentsActivity::class.java)
-            intent.putExtra(FragmentsActivity.FragmentTipo, FragmentsActivity.Fragment2)
+            val intent = Intent(this, Fragments::class.java)
+            intent.putExtra(Fragments.FragmentTipo, Fragments.Fragment2)
             startActivity(intent)
         }
 
         // Botón 3 → SegundoFragment
         val boton3 = findViewById<Button>(R.id.botonAbrirFragment3)
         boton3.setOnClickListener {
-            val intent = Intent(this, FragmentsActivity::class.java)
-            intent.putExtra(FragmentsActivity.FragmentTipo, FragmentsActivity.Fragment3)
+            val intent = Intent(this, Fragments::class.java)
+            intent.putExtra(Fragments.FragmentTipo, Fragments.Fragment3)
             startActivity(intent)
         }
 
         // Botón 4 → SegundoFragment
         val boton4 = findViewById<Button>(R.id.botonAbrirFragment4)
         boton4.setOnClickListener {
-            val intent = Intent(this, FragmentsActivity::class.java)
-            intent.putExtra(FragmentsActivity.FragmentTipo, FragmentsActivity.Fragment4)
+            val intent = Intent(this, Fragments::class.java)
+            intent.putExtra(Fragments.FragmentTipo, Fragments.Fragment4)
             startActivity(intent)
         }
 
         // Botón 5 → SegundoFragment
         val boton5 = findViewById<Button>(R.id.botonAbrirFragment5)
         boton5.setOnClickListener {
-            val intent = Intent(this, FragmentsActivity::class.java)
-            intent.putExtra(FragmentsActivity.FragmentTipo, FragmentsActivity.Fragment5)
+            val intent = Intent(this, Fragments::class.java)
+            intent.putExtra(Fragments.FragmentTipo, Fragments.Fragment5)
             startActivity(intent)
         }
 

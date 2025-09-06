@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tarea1">
         <activity
-            android:name=".FragmentsActivity"
+            android:name=".Fragments"
             android:exported="false"
             android:theme="@style/Theme.Tarea1" />
         <activity
